@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styless.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,200,900&display=swap"
+        rel="stylesheet">
+
+    <title>Starbucks</title>
+</head>
+
+<body>
+    <div class="circulo"></div>
+    <img src="./images/logo.png" class="logo">
+
+    <div class="conteudo">
+        <div class="caixatexto">
+            <h2>It's not just Cofee<br> It's <span>Starbucks</span></h2>
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, est iste incidunt quidem aut ea
+                voluptatum
+                modi officia voluptatem odit! Nulla, optio? Quasi, quaerat aliquam rem sequi quibusdam ipsa. Amet!
+            </p>
+            <button>Deixe o seu like!</button>
+        </div>
+
+        <div class="caixaImagem">
+            <img src="./images/img1.png" class="starbucks">
+        </div>
+
+    </div>
+
+    <div class="menu" >
+        <img src="./images/thumb1.png" class="botao-menu" onclick="trocaImagem('./images/img1.png'); trocaCor('#017143')">
+        <img src="./images/thumb2.png" class="botao-menu" onclick="trocaImagem('./images/img2.png'); trocaCor('#eb7495')">
+        <img src="./images/thumb3.png" class="botao-menu" onclick="trocaImagem('./images/img3.png'); trocaCor('#d752b1')">
+    </div>
+</body>
+
+<script>
+    let imagem = document.querySelector(".starbucks")
+    let circulo= document.querySelector(".circulo")
+
+    function trocaImagem(endereco){
+        imagem.src= endereco
+    }
+
+    function trocaCor(cor){
+        circulo.style.background = cor
+    }
+    
+</script>
+
+</html>
