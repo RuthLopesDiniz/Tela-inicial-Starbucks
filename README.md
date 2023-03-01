@@ -4,4 +4,4 @@
 <h4>Tela inicial:<h4>
 <img src="https://github.com/RuthLopesDiniz/Tela-inicial-Starbucks/blob/master/Img2tela.PNG?raw=true">
 
-<a href="https://starruth.netlify.app/">Clique aqui para ver projeto publicado!</a>
+<a href="https://ruthlopesdiniz.github.io/Tela-inicial-Starbucks/">Clique aqui para ver projeto publicado!</a>
