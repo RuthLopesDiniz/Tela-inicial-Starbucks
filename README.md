@@ -4,4 +4,4 @@
 <h4>Tela inicial:<h4>
 <img src="https://github.com/RuthLopesDiniz/Tela-inicial-Starbucks/blob/master/images/Img2tela.PNG?raw=true">
 
-<a href="https://ruthlopesdiniz.github.io/Tela-inicial-Starbucks/">Clique aqui para ver projeto publicado!</a>
+<a href="https://mellow-marzipan-4f33df.netlify.app/">Clique aqui para ver projeto publicado!</a>
